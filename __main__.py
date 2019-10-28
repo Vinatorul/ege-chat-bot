@@ -27,7 +27,9 @@ def send_fonts(path):
 
 @app.route('/', methods = ["GET", "POST"])
 def root():
-    
-    return send_from_directory('include/html/', 'index.html')
+    if request.method == 'POST':
+        return "OK"
+    else:
+        return send_from_directory('include/html/', 'index.html')
 
 app.run()

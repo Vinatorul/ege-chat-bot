@@ -3,12 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>ЕГЭ чат-бот</title>
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <p>В разработке...</p>
-    <form name="test" method="POST">
-      <input type="text" name="message"/>
-      <input type="submit">
-    </form>
+    <div id="chat">
+      <p>%MESSAGE_HISTORY%</p>
+      <form name="test" method="POST">
+        <input type="text" id="messagetext" name="message"/>
+        <input type="submit" id="messagesend">
+      </form>
+    </div>
   </body>
 </html>

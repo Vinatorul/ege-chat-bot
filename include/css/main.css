@@ -1,0 +1,28 @@
+.author {
+    color: blue;
+}
+
+.reciep {
+    color: red;
+}
+
+#chat {
+    background-color: #dddddd;
+    margin: 20px;
+    padding: 20px;
+    border-color: black;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+#messagetext {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#messagesend {
+    width: 200px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #bbbbbb;
+}

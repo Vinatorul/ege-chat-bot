@@ -39,4 +39,9 @@
     left: 250px;
     margin: 10px;
     display: none;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #444444;
+
 }
+

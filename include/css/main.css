@@ -20,9 +20,23 @@
     border-radius: 10px;
 }
 
-#messagesend {
+
+.buttons {
+    color: #49423d;
     width: 200px;
     border-radius: 10px;
     border-style: solid;
     border-color: #bbbbbb;
+}
+#logout{
+    margin-left: 40px;
+}
+#help {
+    background-color: #e5d0d0;
+    padding: 10px;
+    width: 165px;
+    position: absolute;
+    left: 250px;
+    margin: 10px;
+    display: none;
 }

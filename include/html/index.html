@@ -1,17 +1,25 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="ru">
   <head>
     <meta charset="utf-8">
     <title>ЕГЭ чат-бот</title>
     <link rel="stylesheet" href="css/main.css">
+     <script type="text/javascript" src="js/main.js"></script>
   </head>
   <body>
     <div id="chat">
       <p>%MESSAGE_HISTORY%</p>
       <form name="test" method="POST">
         <input type="text" id="messagetext" name="message"/>
-        <input type="submit" id="messagesend">
+        <input type="submit" class="buttons">
       </form>
     </div>
+      <a href="logout"><input type="button" value="Выход" class="buttons" id="logout"></a>     
+      <a href="#" onclick="showhelp()"><input type="button" value="Справка" class="buttons"></a>
+      <div id="help" >
+          <h3>Справка</h3>
+
+      </div>
+
   </body>
 </html>
